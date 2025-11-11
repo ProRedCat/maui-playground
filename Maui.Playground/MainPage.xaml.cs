@@ -36,7 +36,7 @@ public partial class MainPage : ContentPage
         
         Console.WriteLine(RaygunMauiClient.Current);
 
-        RaygunMauiClient.Current.SendInBackground(new Exception("THis is an error"));
+        throw new Exception("This is an error");
         
         SemanticScreenReader.Announce(CounterBtn.Text);
     }
