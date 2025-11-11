@@ -1,0 +1,74 @@
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea_modules/
+*.iws
+/out/
+
+# .NET / Visual Studio
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]uild[Ll]og.*
+*.binlog
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# MAUI Specific
+*.Resources.Designer.cs
+[Mm]aui[Ff]ont.cs
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+xcuserdata/
+*.xcworkspace/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
